@@ -49,6 +49,13 @@
             <DatabasePlugin DataType="Generator.Definitions.PlanetaryAnomalyDefinition, Assembly-CSharp-firstpass">
                 <FilePath>Simulation/AnomalyDefinitions[Idrinth].xml</FilePath>
             </DatabasePlugin>
+            <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass"  Priority="20">
+                <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+                    <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
+            </DatabasePlugin>
         </Plugins>
     </RuntimeModule>
 </Datatable>
