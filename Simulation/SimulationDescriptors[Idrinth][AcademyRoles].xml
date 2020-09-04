@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="AcademyRoleGrandAdmiral" Type="AcademyRole">
+        <Modifier TargetProperty="NetSystemEmpirePoint" Value="10" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="NetEmpireManpower" Value="$(Population)" Operation="Addition" Path="ClassEmpire"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="AcademyRoleLibrarian" Type="AcademyRole">
+        <Modifier TargetProperty="NetSystemEmpirePoint" Value="10" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="NetEmpireResearch" Value="$(Population)" Operation="Addition" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingSpeed" Value="0.5" Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingWarpSpeed" Value="0.5" Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="HackingNodeSpeed" Value="0.5" Operation="Percent" Path="ClassEmpire"/>
+        <Modifier TargetProperty="VisionRange" Value="1" Operation="Percent" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="AcademyRoleMasterOfDust" Type="AcademyRole">
+        <Modifier TargetProperty="NetSystemEmpirePoint" Value="10" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="NetEmpireMoney" Left="$(Population)" Right="3" BinaryOperation="Multiplication" Operation="Addition" Path="ClassEmpire"/>
+        <BinaryModifier TargetProperty="NetEmpireMoney" Left="$(SystemCount)" Right="10" BinaryOperation="Multiplication" Operation="Addition" Path="ClassEmpire"/>
+        <Modifier TargetProperty="BuildingBuyoutReduction" Value="0.25" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <Modifier TargetProperty="ShipBuyoutReduction" Value="0.25" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="AcademyRoleVaultKeeper" Type="AcademyRole">
+        <Modifier TargetProperty="NetSystemEmpirePoint" Value="10" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="NetSystemInfluence" Left="$(Population)" Right="0.5" BinaryOperation="Multiplication" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+    </SimulationDescriptor>
+</Datatable>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  <SimulationDescriptor Name="AnomalyFlagPlayers12" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="12" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers11" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="11" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers10" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="10" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers09" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="9" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers08" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="8" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers07" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="7" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers06" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="6" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers05" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="5" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers04" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="4" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers03" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="3" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagPlayers02" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Multiplication" Value="2" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+
+  <SimulationDescriptor Name="AnomalyFlagWorldTiny" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="2" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldSmall" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="4" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldNormal" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="6" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldLarge" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="8" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldHuge" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="10" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldColossal" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="12" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="AnomalyFlagWorldGigantic" Type="PlanetAnomaly">
+      <Modifier TargetProperty="PlayerWorldCountBoost" Operation="Division" Value="14" Path="../UniqueStarSystemAcademy"/>
+  </SimulationDescriptor>
+</Datatable>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    <SimulationDescriptor Name="UniqueStarSystemAcademy" Type="UniqueStarSystem">
+      <Property Name="PlayerWorldCountBoost" BaseValue="1"/>
+
+      <Modifier TargetProperty="PlayerCountBoost" Operation="Force" Value="$(PlayerWorldCountBoost)" Path="../ClassEmpire,EmpireTypeAcademy"/>
+      <Modifier TargetProperty="ExperiencePerTurn" Operation="Addition" Value="5" Path="ClassColonizedStarSystem/ClassHero"/>
+  </SimulationDescriptor>
+</Datatable>

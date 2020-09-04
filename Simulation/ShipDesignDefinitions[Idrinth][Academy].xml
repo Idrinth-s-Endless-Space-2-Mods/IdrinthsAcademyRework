@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../../Schemas/ShipDesignDefinition.xsd">
+
+  <!--*********************-->
+  <!--*** ACADEMY SHIPS ***-->
+  <!--*********************-->
+
+  <!--Colonizer-->
+  <ShipDesignDefinition Name="AcademyColonyShip" Editable="false">
+    <HullReference Name="HullSmall03Academy"/>
+    <ShipRoleReference Name="ShipRoleColonizer"/>
+    <SlotBinding SlotName="CoreSection.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="CoreSection.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionN.Support01">
+      <ModuleReference Name="ModuleSupportColonization1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--SMALL Weak-->
+  <ShipDesignDefinition Name="AcademySmallAttackWeak" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall04Academy"/>
+    <ShipRoleReference Name="ShipRoleExploration"/>
+    <!-- Core -->
+    <SlotBinding SlotName="CoreSection.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <!--W-->
+    <SlotBinding SlotName="SectionW.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!--E-->
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!-- S -->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--SMALL Average-->
+  <ShipDesignDefinition Name="AcademySmallAttackAvg" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall02Academy"/>
+    <ShipRoleReference Name="ShipRoleSmallSupport"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Defense01">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Support01">
+     <!-- <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel1"/> -->
+    </SlotBinding>
+    <!--SE Section-->
+
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--SMALL Strong-->
+  <ShipDesignDefinition Name="AcademySmallAttackStrong" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall01Academy"/>
+    <ShipRoleReference Name="ShipRoleSmallAttacker"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating2"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser2"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Defense01">
+      <ModuleReference Name="ModuleDefenseShield2"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic2"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic2"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine2"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support02">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--MEDIUM Average-->
+  <ShipDesignDefinition Name="AcademyMediumAttackAvg" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullMedium02Academy"/>
+    <ShipRoleReference Name="ShipRoleMediumSupport"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Support01">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionE.Support02">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support02">
+     <!-- <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel1"/> -->
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--MEDIUM Strong-->
+  <ShipDesignDefinition Name="AcademyMediumAttackStrong" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullMedium01Academy"/>
+    <ShipRoleReference Name="ShipRoleMediumAttacker"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Weapon01">
+      <ModuleReference Name="ModuleWeaponMissile1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionE.Defense02">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponMissile1"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine2"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support02">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--SMALL Advance Weak-->
+  <ShipDesignDefinition Name="AcademyAdvancedSmallAttackWeak" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall04Academy"/>
+    <ShipRoleReference Name="ShipRoleExploration"/>
+    <!-- Core -->
+    <SlotBinding SlotName="CoreSection.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <!--W-->
+    <SlotBinding SlotName="SectionW.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!--E-->
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!-- S -->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+
+  <!--SMALL Advance Average-->
+  <ShipDesignDefinition Name="AcademyAdvancedSmallAttackAvg" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall02Academy"/>
+    <ShipRoleReference Name="ShipRoleSmallSupport"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Defense01">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Support01">
+     <!-- <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel2"/> -->
+    </SlotBinding>
+    <!--SE Section-->
+
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Weapon01">
+      <ModuleReference Name="ModuleWeaponBeam1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--SMALL Advance Strong-->
+  <ShipDesignDefinition Name="AcademyAdvancedSmallAttackStrong" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullSmall01Academy"/>
+    <ShipRoleReference Name="ShipRoleSmallAttacker"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating2"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser2"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Defense01">
+      <ModuleReference Name="ModuleDefenseShield2"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponBeam2"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponBeam2"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine2"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support02">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--MEDIUM Advance Average-->
+  <ShipDesignDefinition Name="AcademyAdvancedMediumAttackAvg" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullMedium02Academy"/>
+    <ShipRoleReference Name="ShipRoleMediumSupport"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Support01">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionE.Support02">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.Support02">
+     <!-- <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel2"/> -->
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--MEDIUM Advance Strong-->
+  <ShipDesignDefinition Name="AcademyAdvancedMediumAttackStrong" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullMedium01Academy"/>
+    <ShipRoleReference Name="ShipRoleMediumAttacker"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Support01">
+      <ModuleReference Name="ModuleSupportEngine2"/>
+    </SlotBinding>
+    <SlotBinding SlotName="CoreSection.Support02">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Weapon01">
+      <ModuleReference Name="ModuleWeaponBeam1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionE.Defense02">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponMissile1"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+
+  <!--Academy large Ship-->
+  <ShipDesignDefinition Name="AcademyLargeCarrier" Editable="false">
+    <Tags>Academy</Tags>
+    <HullReference Name="HullLarge01Academy"/>
+    <ShipRoleReference Name="ShipRoleCarrier"/>
+    <!--Core Section-->
+    <SlotBinding SlotName="CoreSection.Support01">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="CoreSection.Support02">
+      <ModuleReference Name="ModuleSupportEngine1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="CoreSection.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponLaser2"/>
+    </SlotBinding>
+    <!--N Section-->
+    <SlotBinding SlotName="SectionN.Defense01">
+      <ModuleReference Name="ModuleDefenseHullPlating1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionN.Defense02">
+      <ModuleReference Name="ModuleDefenseShield1"/>
+    </SlotBinding>
+    <!--NE Section-->
+    <SlotBinding SlotName="SectionNE.Weapon01">
+      <ModuleReference Name="ModuleWeaponMissile1"/>
+    </SlotBinding>
+    <!--E Section-->
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponMissile1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionE.Weapon01">
+      <ModuleReference Name="ModuleWeaponLaser1"/>
+    </SlotBinding>
+    <!--SE Section-->
+    <SlotBinding SlotName="SectionSE.Weapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+    <!--S Section-->
+    <SlotBinding SlotName="SectionS.Support01">
+     <!-- <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel2"/> -->
+      <ModuleReference Name="ModuleSupportInvisibilityDetectionLevel1"/>
+    </SlotBinding>
+    <SlotBinding SlotName="SectionS.LargeWeapon01">
+      <ModuleReference Name="ModuleWeaponKinetic1"/>
+    </SlotBinding>
+
+    <SimulationDescriptorReference Name="AcademyShip"/>
+
+  </ShipDesignDefinition>
+</Datatable>

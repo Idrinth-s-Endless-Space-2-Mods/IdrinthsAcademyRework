@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/QuestDefinition.xsd">
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors2" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagPlayers02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy" Global="true">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,2</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+</Datatable>

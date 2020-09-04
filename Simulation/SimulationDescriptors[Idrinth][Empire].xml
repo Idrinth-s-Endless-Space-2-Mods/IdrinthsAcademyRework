@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+  <!-- Empire Types Definition -->
+  <SimulationDescriptor Name="EmpireTypeAcademy"  Type="EmpireType">
+      <Property Name="Stress"                     BaseValue="0"   IsSealed="true"/>
+      <Property Name="NetAcademyStress"           BaseValue="0"   MinValue="Negative"/>
+      <Property Name="HasPopulationDiversityEffect"   BaseValue="1"/>
+
+      <Property Name="NetAcademyEmpireMoney" BaseValue="0"/>
+
+      <Property Name="NetAcademyEmpireShipMoney"            BaseValue="0"/>
+      <Property Name="AcademyEmpireShipMoneyStock"          IsSealed="true"/>
+      <Property Name="MinimumAcademyEmpireShipMoneyStock"   BaseValue="0"/>
+
+      <Property Name="NetAcademyEmpireImprovementMoney"            BaseValue="0"/>
+      <Property Name="AcademyEmpireImprovementMoneyStock"          IsSealed="true"/>
+      <Property Name="MinimumAcademyEmpireImprovementMoneyStock"   BaseValue="0"/>
+
+      <Property Name="NetAcademyEmpireDiplomacyMoney"            BaseValue="0"/>
+      <Property Name="AcademyEmpireDiplomacyMoneyStock"          IsSealed="true"/>
+      <Property Name="MinimumAcademyEmpireDiplomacyMoneyStock"   BaseValue="0"/>
+
+      <Property Name="AcademyFleetUpkeep"/>
+      <Property Name="MaxConcurrentFleetsMultiplier"        BaseValue ="1"/>
+      
+      <Property Name="AggressivenessMultiplier"             BaseValue ="1"/>
+
+      <Property Name="ShipMoneyDistributionFactor"          BaseValue="0"/>
+      <Property Name="ImprovementMoneyDistributionFactor"   BaseValue="0"/>
+      <Property Name="DiplomacyMoneyDistributionFactor"     BaseValue="0"/>
+
+      <Property Name="PlayerCountBoost" BaseValue="1" MinValue="1"/>
+    
+      <Modifier TargetProperty="NetAcademyEmpireMoney"  Operation="Subtraction" Value="$(AcademyFleetUpkeep)" Priority="1"/>
+
+      <Modifier TargetProperty="MaxConcurrentFleetMultiplier" Operation="Multiplication" Value="$(PlayerCountBoost)"/>
+      <Modifier TargetProperty="NetAcademyStress" Operation="Division" Value="$(PlayerCountBoost)"/>
+  </SimulationDescriptor>
+</Datatable>
