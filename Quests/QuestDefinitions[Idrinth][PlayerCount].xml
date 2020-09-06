@@ -5,9 +5,9 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagPlayers02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
             <Var VarName="$CountOne" StringValue="1"/>
-            <Var VarName="$Academy" Global="true">
+            <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
                 <Where>
                   <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
@@ -17,6 +17,346 @@
         </Vars>
         <Prerequisites>
             <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,2</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors03" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,3</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors04" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,4</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors05" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,5</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors06" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,6</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors07" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,7</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors08" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,8</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors09" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,9</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors10" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,10</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors11" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,11</GameSettingPrerequisite>
+        </Prerequisites>
+        <Steps>
+            <Step Name="Step1">
+                <ObjectiveSet>
+                    <Objective Name="IET1_1">
+                        <Sequence>
+                            <Action_SpawnAnomaly LogAction="true">
+                                <Input_Planets VarName="$Academy"/>
+                                <Input_AnomalyDefinition VarName="$AnomalyDefinition"/>
+                                <Input_Count VarName="$CountOne"/>
+                            </Action_SpawnAnomaly>
+                        </Sequence>
+                    </Objective>
+                </ObjectiveSet>
+            </Step>
+        </Steps>
+    </QuestDefinition>
+    <QuestDefinition Name="QuestIdrinthEmpireSettingCompetitors12" IsInstant="true" SingleCheckPerTurn="true" Category="General" SubCategory="Flags">
+        <Tags>Hidden,BeginTurn</Tags>
+        <QuestContextSolo/>
+        <RepetitionRules NumberOfOccurrencesPerGame="1"/>
+        <Vars>
+            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$CountOne" StringValue="1"/>
+            <Var VarName="$Academy">
+              <From Source="$Constellations.$StarSystems.$Planets">
+                <Where>
+                  <PathPrerequisite Flags="Prerequisite">../ClassStarSystem,WorldAcademy</PathPrerequisite>
+                </Where>
+              </From>
+            </Var>
+        </Vars>
+        <Prerequisites>
+            <GameSettingPrerequisite Flags="Prerequisite">CompetitorCount,12</GameSettingPrerequisite>
         </Prerequisites>
         <Steps>
             <Step Name="Step1">

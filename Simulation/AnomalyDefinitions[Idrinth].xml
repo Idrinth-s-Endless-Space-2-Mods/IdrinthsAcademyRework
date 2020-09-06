@@ -1,76 +1,112 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/AnomalyDefinition.xsd">
-    <AnomalyDefinition Name="AnomalyFlagPlayers02" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers02" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers02"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers03" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers03" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers03"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers04" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers04" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers04"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers05" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers05" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers05"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers06" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers06" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers06"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers07" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers07" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers07"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers08" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers08" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers08"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers09" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers09" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers09"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers10" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers10" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers10"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers11" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers11" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers11"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagPlayers12" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagPlayers12" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagPlayers12"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
 
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
+    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed">
         <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldSmall" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldSmall"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldNormal" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldNormal"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldLarge" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldLarge"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldHuge" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldHuge"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldColossal" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldColossal"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
-    <AnomalyDefinition Name="AnomalyFlagWorldTiny" Quality="Mixed" Indestructible="true">
-        <SimulationDescriptorReference Name="AnomalyFlagWorldTiny"/>
-      <GeneratorInfo ExcludeFromRandomPlacement="true"/>
+    <AnomalyDefinition Name="AnomalyFlagWorldGigantic" Quality="Mixed">
+        <SimulationDescriptorReference Name="AnomalyFlagWorldGigantic"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyGround"/>
+        <SimulationDescriptorReference Name="PlanetAnomalyMixed"/>
+      <GeneratorInfo/>
     </AnomalyDefinition>
 </Datatable>

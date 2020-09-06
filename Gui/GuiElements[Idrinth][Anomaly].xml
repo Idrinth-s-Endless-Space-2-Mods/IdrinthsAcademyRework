@@ -3,9 +3,13 @@
     <GuiElement Name="AnomalyFlagPlayers02">
         <Title>%AnomalyFlagPlayersTitle</Title>
         <Description>%AnomalyFlagPlayersDescription</Description> 
+    </GuiElement>
+    <!--ExtendedGuiElement Name="AnomalyFlagPlayers02">
+        <Title>%AnomalyFlagPlayersTitle</Title>
+        <Description>%AnomalyFlagPlayersDescription</Description> 
         <Icons>
             <Icon Size="Small" Path="Anomaly"/>
             <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
         </Icons>
-    </GuiElement>
+    </ExtendedGuiElement>-->
 </Datatable>

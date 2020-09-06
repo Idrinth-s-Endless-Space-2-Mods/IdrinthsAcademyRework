@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
 
-    <RuntimeModule Name="IdrinthsAcademyRework" Type="Extension" Version="0.43">
+    <RuntimeModule Name="IdrinthsAcademyRework" Type="Extension" Version="1">
 
         <Title>Idrinth's Academy Rework</Title>
-        <Description></Description>
+        <Description>This mod is aimed at making the academy more balanced instead of reducing it's power to a sidenote. For that purpose the following things are done:
+
+- Isander's initial stress is reduced, so he won't start in late game mode when there are 12 Nakalim players
+- Lower Stress Fleets are smaller, so early game won't have carrier's to handle
+- There's no manpower on master fleets, so noone gets a free invasion
+- All Roles have been buffed to be brought on roughly the same level
+- Role preferences have been adjusted, so that not everyone goes for the admiral
+
+This is not yet finished, better scaling with the number of players and the size of the galaxy is planned. If you want to help out the source is at https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsAcademyRework .</Description>
         <Author>Idrinth</Author>
-        <Homepage></Homepage>
+        <Homepage>https://github.com/Idrinth-s-Endless-Space-2-Mods/IdrinthsAcademyRework</Homepage>
         <PreviewImageFile>iar.jpg</PreviewImageFile>
         <ReleaseNotes></ReleaseNotes>
         <Tags>Gameplay, Balance</Tags>
@@ -52,7 +60,6 @@
             <DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass"  Priority="20">
                 <ExtraTypes>
                     <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
-                    <ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp"/>
                 </ExtraTypes>
                 <FilePath>Gui/GuiElements[Idrinth][*].xml</FilePath>
             </DatabasePlugin>

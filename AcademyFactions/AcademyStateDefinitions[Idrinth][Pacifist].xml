@@ -33,6 +33,31 @@
         </FleetComposition>
       </FleetMission>
 
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
       <FleetMission Name="RestockMasterFleet">
         <FleetMissionReference Name="RestockMasterFleet"/>
         <FleetComposition>
@@ -98,6 +123,31 @@
           <NeededShips>
             <ShipDesign Name="AcademyAdvancedSmallAttackWeak"/>
             <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
           </NeededShips>
         </FleetComposition>
       </FleetMission>
@@ -192,6 +242,31 @@
             <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedSmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
           </NeededShips>
         </FleetComposition>
       </FleetMission>
@@ -295,6 +370,31 @@
             <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
             <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
           </NeededShips>
         </FleetComposition>
       </FleetMission>
@@ -419,6 +519,31 @@
             <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
             <ShipDesign Name="AcademyMediumAttackStrong"/>
             <ShipDesign Name="AcademyMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
           </NeededShips>
         </FleetComposition>
       </FleetMission>
@@ -552,6 +677,31 @@
             <ShipDesign Name="AcademyMediumAttackStrong"/>
             <ShipDesign Name="AcademyMediumAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
           </NeededShips>
         </FleetComposition>
       </FleetMission>
@@ -703,6 +853,31 @@
         </FleetComposition>
       </FleetMission>
 
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
       <FleetMission Name="RestockMasterFleet">
         <FleetMissionReference Name="RestockMasterFleet"/>
         <FleetComposition>
@@ -745,6 +920,201 @@
             <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
             <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+    </FleetMissions>
+
+    <FleetUpgrade>
+      <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+      <FleetPathPrerequisite>AcademyMasterFleet</FleetPathPrerequisite>
+      <UpgradeDescriptors>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeedAcademy"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeed01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDamage02"/>
+      </UpgradeDescriptors>
+    </FleetUpgrade>
+    <FleetUpgrade>
+      <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+      <FleetPathPrerequisite>AcademyMasterFleet</FleetPathPrerequisite>
+      <UpgradeDescriptors>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeedAcademy"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeed01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDamage01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeed02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDamage02"/>
+      </UpgradeDescriptors>
+    </FleetUpgrade>
+    <FleetUpgrade>
+      <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+      <FleetPathPrerequisite>AcademyMasterFleet</FleetPathPrerequisite>
+      <UpgradeDescriptors>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeedAcademy"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDamage01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeed01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedHealth02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense01"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDamage02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense02"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedDefense03"/>
+        <DescriptorReference Flags="Add,Fleet" Name="PirateReinforcementIncreasedSpeed03"/>
+      </UpgradeDescriptors>
+    </FleetUpgrade>
+    <FleetUpgrade>
+      <PathPrerequisite Flags="Prerequisite" Inverted="false">../ClassEmpire,!AffinityGameplayAcademyEmpire</PathPrerequisite>
+      <FleetPathPrerequisite>!AcademyMasterFleet</FleetPathPrerequisite>
+      <UpgradeDescriptors>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedDamage01"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedSpeed01"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedDefense01"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedDamage01"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedDefense02"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedSpeed02"/>
+        <DescriptorReference Flags="Add,Ship" Name="NamedShipReinforcementIncreasedDamage03"/>
+      </UpgradeDescriptors>
+    </FleetUpgrade>
+
+    <SimulationDescriptorReference Name="AcademyResourceDistributionLateGame"/>
+  </AcademyStateDefinition>
+  <!-- State 8-->
+  <AcademyStateDefinition Name="EndGamePacifist" MinimumStress="300" MaxConcurrentFleets="9" Aggressiveness="0.8">
+    <!--<PathPrerequisite Flags="Prerequisite">PersonalityTraitPacifist</PathPrerequisite>-->
+
+    <AcademyMasterFleetMission>AcademyDefensive</AcademyMasterFleetMission>
+    <TradableMasterFleetMission>AcademyAggressive</TradableMasterFleetMission>
+    <RetakeHomeMission>AcademyRetakeHome</RetakeHomeMission>
+    <RecoverColonyMission>AcademyRecoverColony</RecoverColonyMission>
+    <AggressiveMission>AcademyLongRoamAndAttack</AggressiveMission>
+    <DefensiveMission>AcademyRoamAndAttack</DefensiveMission>
+
+    <FleetMissions>
+      <FleetMission Weight="1">
+        <FleetMissionReference Name="DefendSystemIdle"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyAdvancedSmallAttackStrong"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="Colonization" Weight="0">
+        <FleetMissionReference Name="GoToAndColonize"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+            <ShipDesign Name="AcademySmallAttackWeak"/>
+          </NeededShips>
+        </FleetComposition>
+      </FleetMission>
+
+      <FleetMission Name="RestockMasterFleet">
+        <FleetMissionReference Name="RestockMasterFleet"/>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyEasy</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyNormal</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
+          </NeededShips>
+        </FleetComposition>
+        <FleetComposition>
+          <PathPrerequisite Flags="Prerequisite">AcademyFactionDifficultyHard</PathPrerequisite>
+          <NeededShips>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademyLargeCarrier"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademySmallAttackStrong"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyAdvancedMediumAttackAvg"/>
+            <ShipDesign Name="AcademyMediumAttackStrong"/>
             <ShipDesign Name="AcademyMediumAttackStrong"/>
             <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
             <ShipDesign Name="AcademyAdvancedMediumAttackStrong"/>
