@@ -35,7 +35,7 @@
       <Property Name="TurnReset" BaseValue="-1" MaxValue="0" MinValue="-1"/>
     
       <Modifier TargetProperty="NetAcademyEmpireMoney"  Operation="Subtraction" Value="$(AcademyFleetUpkeep)" Priority="1"/>
-      <Modifier TargetProperty="NetAcademyEmpireMoney"  Operation="Addition" Value="$(CurrentTurn)"/>
+      <BinaryModifier TargetProperty="NetAcademyEmpireMoney" BinaryOperation="Multiplication" Operation="Addition" Left="$(CurrentTurn)" Right="$(CurrentTurn)"/>
 
       <Modifier TargetProperty="MaxConcurrentFleetMultiplier" Operation="Multiplication" Value="$(PlayerCountBoost)"/>
       <Modifier TargetProperty="NetAcademyStress" Operation="Division" Value="$(PlayerCountBoost)"/>

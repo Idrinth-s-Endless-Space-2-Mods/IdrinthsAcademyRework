@@ -25,5 +25,6 @@
     <SimulationDescriptor Name="AcademyRoleVaultKeeper" Type="AcademyRole">
         <Modifier TargetProperty="NetSystemEmpirePoint" Value="10" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
         <BinaryModifier TargetProperty="NetSystemInfluence" Left="$(Population)" Right="0.5" BinaryOperation="Multiplication" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
+        <BinaryModifier TargetProperty="NetSystemEmpirePoint" Left="$(Population)" Right="0.5" BinaryOperation="Multiplication" Operation="Addition" Path="ClassEmpire/ClassColonizedStarSystem"/>
     </SimulationDescriptor>
 </Datatable>
