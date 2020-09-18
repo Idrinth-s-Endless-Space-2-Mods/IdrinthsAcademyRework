@@ -5,7 +5,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldTiny"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -40,7 +40,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldSmall"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -75,7 +75,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldNormal"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -110,7 +110,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldLarge"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -145,7 +145,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldHuge"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -180,7 +180,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldColossal"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">
@@ -215,7 +215,7 @@
         <QuestContextSolo/>
         <RepetitionRules NumberOfOccurrencesPerGame="1"/>
         <Vars>
-            <Var VarName="$AnomalyDefinition" StringValue="PlanetAnomaly02"/>
+            <Var VarName="$AnomalyDefinition" StringValue="AnomalyFlagWorldGigantic"/>
             <Var VarName="$CountOne" StringValue="1"/>
             <Var VarName="$Academy">
               <From Source="$Constellations.$StarSystems.$Planets">

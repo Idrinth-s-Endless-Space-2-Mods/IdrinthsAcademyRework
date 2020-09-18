@@ -43,5 +43,6 @@
       <BinaryModifier TargetProperty="TurnReset" Operation="Force" Left="-2" Right="$(CurrentTurn)" BinaryOperation="Addition"/>
       <BinaryModifier TargetProperty="NetAcademyStress" Operation="Multiplication" Left="$(TurnBoost)" Right="0.01" BinaryOperation="Multiplication"/>
       <BinaryModifier TargetProperty="NetAcademyStress" Operation="Addition" Left="$(TurnReset)" Right="$(Stress)" BinaryOperation="Multiplication" Priority="2"/>
+      <Modifier TargetProperty="NetAcademyStress" Operation="Multiplication" Value="$(GameSpeedTimeMultiplier)" Priority="2"/>
   </SimulationDescriptor>
 </Datatable>

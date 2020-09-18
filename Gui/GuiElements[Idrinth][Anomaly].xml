@@ -1,15 +1,148 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
-    <GuiElement Name="AnomalyFlagPlayers02">
-        <Title>%AnomalyFlagPlayersTitle</Title>
-        <Description>%AnomalyFlagPlayersDescription</Description> 
-    </GuiElement>
-    <!--ExtendedGuiElement Name="AnomalyFlagPlayers02">
-        <Title>%AnomalyFlagPlayersTitle</Title>
-        <Description>%AnomalyFlagPlayersDescription</Description> 
-        <Icons>
-            <Icon Size="Small" Path="Anomaly"/>
-            <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
-        </Icons>
-    </ExtendedGuiElement>-->
+  <ExtendedGuiElement Name="AnomalyFlagPlayers02">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers03">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers04">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers05">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers06">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers07">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers08">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers09">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers10">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers11">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagPlayers12">
+    <Title>%AnomalyFlagPlayersTitle</Title>
+    <Description>%AnomalyFlagPlayersDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="AnomalyFlagWorldTiny">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldLarge">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldSmall">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldNormal">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldHuge">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldColossal">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="AnomalyFlagWorldGigantic">
+    <Title>%AnomalyFlagWorldTitle</Title>
+    <Description>%AnomalyFlagWorldDescription</Description> 
+    <Icons>
+      <Icon Size="Small" Path="Anomaly"/>
+      <Icon Size="Large" Path="Bitmaps/Dynamic/Anomalies/PlanetAnomalyNaturalWonder2Large"/>
+    </Icons>
+  </ExtendedGuiElement>
 </Datatable>
